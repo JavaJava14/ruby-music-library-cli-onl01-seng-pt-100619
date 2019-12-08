@@ -14,5 +14,5 @@ class Song
   def self.destroy
   all.clear
   end
-  
+
 end
