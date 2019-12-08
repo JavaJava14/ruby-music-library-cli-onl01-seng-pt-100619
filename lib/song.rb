@@ -3,7 +3,7 @@ class Song
   attr_reader :artist, :genre
   @@all = []
 
-  def initialize(name,artist=nil)
+  def initialize(name,artist)
     @name = name
     self.artist = artist if artist
   end
